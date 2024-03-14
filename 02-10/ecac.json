@@ -1,0 +1,864 @@
+[
+  {
+    "title": "Navigator.prototype.plugins",
+    "type": "resource",
+    "resource": "get",
+    "group": "BrowserProperties",
+    "weight": 1,
+    "accesses": 23
+  },
+  {
+    "title": "Navigator.prototype.userAgent",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 2,
+    "accesses": 30
+  },
+  {
+    "title": "Navigator.prototype.language",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 1,
+    "accesses": 8
+  },
+  {
+    "title": "Navigator.prototype.languages",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 2,
+    "accesses": 9
+  },
+  {
+    "title": "Navigator.prototype.platform",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 1,
+    "accesses": 8
+  },
+  {
+    "title": "Navigator.prototype.productSub",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 1,
+    "accesses": 1
+  },
+  {
+    "title": "Navigator.prototype.product",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 1,
+    "accesses": 1
+  },
+  {
+    "title": "Navigator.prototype.vendorSub",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 2,
+    "accesses": 1
+  },
+  {
+    "title": "Navigator.prototype.vendor",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 1,
+    "accesses": 5
+  },
+  {
+    "title": "Navigator.prototype.appVersion",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 2,
+    "accesses": 5
+  },
+  {
+    "title": "Navigator.prototype.appCodeName",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 2,
+    "accesses": 1
+  },
+  {
+    "title": "NavigatorBasic",
+    "type": "group",
+    "weight": 2,
+    "sum": 15
+  },
+  {
+    "title": "Navigator.prototype.hardwareConcurrency",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorHardware",
+    "weight": 1,
+    "accesses": 9
+  },
+  {
+    "title": "Navigator.prototype.deviceMemory",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorHardware",
+    "weight": 1,
+    "accesses": 9
+  },
+  {
+    "title": "NavigatorHardware",
+    "type": "group",
+    "weight": 1,
+    "sum": 2
+  },
+  {
+    "title": "Navigator.prototype.maxTouchPoints",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorMobile",
+    "weight": 1,
+    "accesses": 17
+  },
+  {
+    "title": "NavigatorMobile",
+    "type": "group",
+    "weight": 1,
+    "sum": 1
+  },
+  {
+    "title": "NetworkInformation.prototype.rtt",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorNetwork",
+    "weight": 1,
+    "accesses": 2
+  },
+  {
+    "title": "NavigatorNetwork",
+    "type": "group",
+    "weight": 0,
+    "sum": 1
+  },
+  {
+    "title": "Date.prototype.getTimezoneOffset",
+    "type": "resource",
+    "resource": "call",
+    "group": "LocalizationInfo",
+    "weight": 1,
+    "accesses": 4
+  },
+  {
+    "title": "Intl.DateTimeFormat.prototype.resolvedOptions",
+    "type": "resource",
+    "resource": "call",
+    "group": "LocalizationInfo",
+    "weight": 1,
+    "accesses": 4
+  },
+  {
+    "title": "LocalizationInfo",
+    "type": "group",
+    "weight": 1,
+    "sum": 2
+  },
+  {
+    "title": "Permissions.prototype.query",
+    "type": "resource",
+    "resource": "call",
+    "group": "PermissionsInfo",
+    "weight": 1,
+    "accesses": 30
+  },
+  {
+    "title": "PermissionsInfo",
+    "type": "group",
+    "weight": 1,
+    "sum": 1
+  },
+  {
+    "title": "AudioInfo",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "Screen.prototype.height",
+    "type": "resource",
+    "resource": "get",
+    "group": "ScreenInfo",
+    "weight": 1,
+    "accesses": 6
+  },
+  {
+    "title": "Screen.prototype.width",
+    "type": "resource",
+    "resource": "get",
+    "group": "ScreenInfo",
+    "weight": 1,
+    "accesses": 8
+  },
+  {
+    "title": "Screen.prototype.colorDepth",
+    "type": "resource",
+    "resource": "get",
+    "group": "ScreenInfo",
+    "weight": 1,
+    "accesses": 6
+  },
+  {
+    "title": "Screen.prototype.pixelDepth",
+    "type": "resource",
+    "resource": "get",
+    "group": "ScreenInfo",
+    "weight": 1,
+    "accesses": 7
+  },
+  {
+    "title": "Screen.prototype.availHeight",
+    "type": "resource",
+    "resource": "get",
+    "group": "ScreenInfo",
+    "weight": 1,
+    "accesses": 5
+  },
+  {
+    "title": "Screen.prototype.availWidth",
+    "type": "resource",
+    "resource": "get",
+    "group": "ScreenInfo",
+    "weight": 1,
+    "accesses": 5
+  },
+  {
+    "title": "Screen.prototype.availTop",
+    "type": "resource",
+    "resource": "get",
+    "group": "ScreenInfo",
+    "weight": 1,
+    "accesses": 1
+  },
+  {
+    "title": "Screen.prototype.availLeft",
+    "type": "resource",
+    "resource": "get",
+    "group": "ScreenInfo",
+    "weight": 1,
+    "accesses": 1
+  },
+  {
+    "title": "ScreenInfo",
+    "type": "group",
+    "weight": 1,
+    "sum": 8
+  },
+  {
+    "title": "window.devicePixelRatio",
+    "type": "resource",
+    "resource": "get",
+    "group": "WindowInfo",
+    "weight": 1,
+    "accesses": 5
+  },
+  {
+    "title": "window.innerWidth",
+    "type": "resource",
+    "resource": "get",
+    "group": "WindowInfo",
+    "weight": 1,
+    "accesses": 6
+  },
+  {
+    "title": "window.innerHeight",
+    "type": "resource",
+    "resource": "get",
+    "group": "WindowInfo",
+    "weight": 1,
+    "accesses": 2
+  },
+  {
+    "title": "window.outerWidth",
+    "type": "resource",
+    "resource": "get",
+    "group": "WindowInfo",
+    "weight": 1,
+    "accesses": 2
+  },
+  {
+    "title": "window.outerHeight",
+    "type": "resource",
+    "resource": "get",
+    "group": "WindowInfo",
+    "weight": 1,
+    "accesses": 2
+  },
+  {
+    "title": "WindowInfo",
+    "type": "group",
+    "weight": 1,
+    "sum": 5
+  },
+  {
+    "title": "window.localStorage",
+    "type": "resource",
+    "resource": "get",
+    "group": "StorageInfo",
+    "weight": 1,
+    "accesses": 8
+  },
+  {
+    "title": "window.sessionStorage",
+    "type": "resource",
+    "resource": "get",
+    "group": "StorageInfo",
+    "weight": 1,
+    "accesses": 2
+  },
+  {
+    "title": "window.indexedDB",
+    "type": "resource",
+    "resource": "get",
+    "group": "StorageInfo",
+    "weight": 2,
+    "accesses": 2
+  },
+  {
+    "title": "StorageInfo",
+    "type": "group",
+    "weight": 1,
+    "sum": 4
+  },
+  {
+    "title": "Navigator.prototype.cookieEnabled",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorFlags",
+    "weight": 1,
+    "accesses": 1
+  },
+  {
+    "title": "Navigator.prototype.doNotTrack",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorFlags",
+    "weight": 1,
+    "accesses": 1
+  },
+  {
+    "title": "NavigatorFlags",
+    "type": "group",
+    "weight": 1,
+    "sum": 2
+  },
+  {
+    "title": "Performance.prototype.now",
+    "type": "resource",
+    "resource": "call",
+    "group": "TimeInfo",
+    "weight": 1,
+    "accesses": 296
+  },
+  {
+    "title": "Date.now",
+    "type": "resource",
+    "resource": "call",
+    "group": "TimeInfo",
+    "weight": 1,
+    "accesses": 30
+  },
+  {
+    "title": "TimeInfo",
+    "type": "group",
+    "weight": 1,
+    "sum": 326
+  },
+  {
+    "title": "WebGLRenderingContext.prototype.getParameter",
+    "type": "resource",
+    "resource": "call",
+    "group": "WebGLInfo",
+    "weight": 1,
+    "accesses": 27
+  },
+  {
+    "title": "WebGL2RenderingContext.prototype.getParameter",
+    "type": "resource",
+    "resource": "call",
+    "group": "WebGLInfo",
+    "weight": 1,
+    "accesses": 50
+  },
+  {
+    "title": "WebGLInfo",
+    "type": "group",
+    "weight": 1,
+    "sum": 2
+  },
+  {
+    "title": "BrowserProperties",
+    "type": "group",
+    "weight": 2,
+    "sum": 13
+  },
+  {
+    "title": "CSSStyleDeclaration.prototype.fontFamily",
+    "type": "resource",
+    "resource": "set",
+    "group": "JSFontEnumStepOne",
+    "weight": 0,
+    "accesses": 1
+  },
+  {
+    "title": "JSFontEnumStepOne",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "HTMLElement.prototype.offsetWidth",
+    "type": "resource",
+    "resource": "get",
+    "group": "JSFontEnumStepTwo",
+    "weight": 1,
+    "accesses": 3
+  },
+  {
+    "title": "HTMLElement.prototype.offsetHeight",
+    "type": "resource",
+    "resource": "get",
+    "group": "JSFontEnumStepTwo",
+    "weight": 1,
+    "accesses": 3
+  },
+  {
+    "title": "JSFontEnumStepTwo",
+    "type": "group",
+    "weight": 0,
+    "sum": 6
+  },
+  {
+    "title": "JSFontEnum",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "CanvasRenderingContext2D.prototype.font",
+    "type": "resource",
+    "resource": "set",
+    "group": "CanvasFontEnumStepOne",
+    "weight": 0,
+    "accesses": 12
+  },
+  {
+    "title": "CanvasFontEnumStepOne",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "CanvasRenderingContext2D.prototype.measureText",
+    "type": "resource",
+    "resource": "call",
+    "group": "CanvasFontEnumStepTwo",
+    "weight": 1,
+    "accesses": 22
+  },
+  {
+    "title": "CanvasFontEnumStepTwo",
+    "type": "group",
+    "weight": 1,
+    "sum": 1
+  },
+  {
+    "title": "CanvasFontEnum",
+    "type": "group",
+    "weight": 0,
+    "sum": 1
+  },
+  {
+    "title": "FontsEnumFingerprint",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "CanvasRenderingContext2D.prototype.fillText",
+    "type": "resource",
+    "resource": "call",
+    "group": "CanvasFingerprintStepOne",
+    "weight": 1,
+    "accesses": 4
+  },
+  {
+    "title": "CanvasFingerprintStepOne",
+    "type": "group",
+    "weight": 1,
+    "sum": 1
+  },
+  {
+    "title": "CanvasRenderingContext2D.prototype.fillStyle",
+    "type": "resource",
+    "resource": "set",
+    "group": "CanvasFingerprintStepTwo",
+    "weight": 1,
+    "accesses": 4
+  },
+  {
+    "title": "CanvasFingerprintStepTwo",
+    "type": "group",
+    "weight": 1,
+    "sum": 4
+  },
+  {
+    "title": "HTMLCanvasElement.prototype.toDataURL",
+    "type": "resource",
+    "resource": "call",
+    "group": "CanvasFingerprintStepThree",
+    "weight": 1,
+    "accesses": 6
+  },
+  {
+    "title": "CanvasRenderingContext2D.prototype.getImageData",
+    "type": "resource",
+    "resource": "call",
+    "group": "CanvasFingerprintStepThree",
+    "weight": 1,
+    "accesses": 6
+  },
+  {
+    "title": "CanvasFingerprintStepThree",
+    "type": "group",
+    "weight": 1,
+    "sum": 2
+  },
+  {
+    "title": "CanvasFingerprint",
+    "type": "group",
+    "weight": 1,
+    "sum": 3
+  },
+  {
+    "title": "WebGL1FingerprintStepOne",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "WebGL1FingerprintStepTwo",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "HTMLCanvasElement.prototype.toDataURL",
+    "type": "resource",
+    "resource": "call",
+    "group": "WebGL1FingerprintStepThree",
+    "weight": 1,
+    "accesses": 6
+  },
+  {
+    "title": "CanvasRenderingContext2D.prototype.getImageData",
+    "type": "resource",
+    "resource": "call",
+    "group": "WebGL1FingerprintStepThree",
+    "weight": 1,
+    "accesses": 6
+  },
+  {
+    "title": "WebGL1FingerprintStepThree",
+    "type": "group",
+    "weight": 1,
+    "sum": 2
+  },
+  {
+    "title": "WebGL1Fingerprint",
+    "type": "group",
+    "weight": 0,
+    "sum": 1
+  },
+  {
+    "title": "WebGL2FingerprintStepOne",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "WebGL2FingerprintStepTwo",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "HTMLCanvasElement.prototype.toDataURL",
+    "type": "resource",
+    "resource": "call",
+    "group": "WebGL2FingerprintStepThree",
+    "weight": 1,
+    "accesses": 6
+  },
+  {
+    "title": "CanvasRenderingContext2D.prototype.getImageData",
+    "type": "resource",
+    "resource": "call",
+    "group": "WebGL2FingerprintStepThree",
+    "weight": 1,
+    "accesses": 6
+  },
+  {
+    "title": "WebGL2FingerprintStepThree",
+    "type": "group",
+    "weight": 1,
+    "sum": 2
+  },
+  {
+    "title": "WebGL2Fingerprint",
+    "type": "group",
+    "weight": 0,
+    "sum": 1
+  },
+  {
+    "title": "WebGLFingerprint",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "WebRTCFingerprintStepOne",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "WebRTCFingerprintStepTwo",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "WebRTCFingerprint",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "AudioContextFingerprint",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "AlgorithmicMethods",
+    "type": "group",
+    "weight": 2,
+    "sum": 1
+  },
+  {
+    "title": "Navigator.prototype.languages",
+    "type": "resource",
+    "resource": "get",
+    "group": "CrawlFpInspector",
+    "weight": 8,
+    "accesses": 9
+  },
+  {
+    "title": "Navigator.prototype.productSub",
+    "type": "resource",
+    "resource": "get",
+    "group": "CrawlFpInspector",
+    "weight": 11,
+    "accesses": 1
+  },
+  {
+    "title": "Navigator.prototype.vendorSub",
+    "type": "resource",
+    "resource": "get",
+    "group": "CrawlFpInspector",
+    "weight": 12,
+    "accesses": 1
+  },
+  {
+    "title": "Navigator.prototype.appCodeName",
+    "type": "resource",
+    "resource": "get",
+    "group": "CrawlFpInspector",
+    "weight": 9,
+    "accesses": 1
+  },
+  {
+    "title": "Navigator.prototype.hardwareConcurrency",
+    "type": "resource",
+    "resource": "get",
+    "group": "CrawlFpInspector",
+    "weight": 11,
+    "accesses": 9
+  },
+  {
+    "title": "Navigator.prototype.maxTouchPoints",
+    "type": "resource",
+    "resource": "get",
+    "group": "CrawlFpInspector",
+    "weight": 8,
+    "accesses": 17
+  },
+  {
+    "title": "Navigator.prototype.doNotTrack",
+    "type": "resource",
+    "resource": "get",
+    "group": "CrawlFpInspector",
+    "weight": 8,
+    "accesses": 1
+  },
+  {
+    "title": "WebGLRenderingContext.prototype.getParameter",
+    "type": "resource",
+    "resource": "call",
+    "group": "CrawlFpInspector",
+    "weight": 8,
+    "accesses": 54
+  },
+  {
+    "title": "CanvasRenderingContext2D.prototype.fillStyle",
+    "type": "resource",
+    "resource": "set",
+    "group": "CrawlFpInspector",
+    "weight": 8,
+    "accesses": 6
+  },
+  {
+    "title": "HTMLCanvasElement.prototype.toDataURL",
+    "type": "resource",
+    "resource": "call",
+    "group": "CrawlFpInspector",
+    "weight": 9,
+    "accesses": 6
+  },
+  {
+    "title": "CanvasRenderingContext2D.prototype.getImageData",
+    "type": "resource",
+    "resource": "call",
+    "group": "CrawlFpInspector",
+    "weight": 8,
+    "accesses": 6
+  },
+  {
+    "title": "AudioBuffer.prototype.getChannelData",
+    "type": "resource",
+    "resource": "call",
+    "group": "CrawlFpInspector",
+    "weight": 12,
+    "accesses": 2
+  },
+  {
+    "title": "WebGLRenderingContext.prototype.getExtension",
+    "type": "resource",
+    "resource": "call",
+    "group": "CrawlFpInspector",
+    "weight": 11,
+    "accesses": 2
+  },
+  {
+    "title": "WebGLRenderingContext.prototype.getExtension",
+    "type": "resource",
+    "resource": "call",
+    "group": "CrawlFpInspector",
+    "weight": 10,
+    "accesses": 2
+  },
+  {
+    "title": "WebGLRenderingContext.prototype.getExtension",
+    "type": "resource",
+    "resource": "call",
+    "group": "CrawlFpInspector",
+    "weight": 9,
+    "accesses": 2
+  },
+  {
+    "title": "WebGLRenderingContext.prototype.getExtension",
+    "type": "resource",
+    "resource": "call",
+    "group": "CrawlFpInspector",
+    "weight": 8,
+    "accesses": 3
+  },
+  {
+    "title": "WebGLRenderingContext.prototype.getSupportedExtensions",
+    "type": "resource",
+    "resource": "call",
+    "group": "CrawlFpInspector",
+    "weight": 10,
+    "accesses": 2
+  },
+  {
+    "title": "WebGLRenderingContext.prototype.getContextAttributes",
+    "type": "resource",
+    "resource": "call",
+    "group": "CrawlFpInspector",
+    "weight": 10,
+    "accesses": 2
+  },
+  {
+    "title": "WebGLRenderingContext.prototype.getShaderPrecisionFormat",
+    "type": "resource",
+    "resource": "call",
+    "group": "CrawlFpInspector",
+    "weight": 10,
+    "accesses": 16
+  },
+  {
+    "title": "WebGLShaderPrecisionFormat.prototype.rangeMax",
+    "type": "resource",
+    "resource": "get",
+    "group": "CrawlFpInspector",
+    "weight": 10,
+    "accesses": 32
+  },
+  {
+    "title": "CanvasRenderingContext2D.prototype.fillRect",
+    "type": "resource",
+    "resource": "call",
+    "group": "CrawlFpInspector",
+    "weight": 9,
+    "accesses": 6
+  },
+  {
+    "title": "WebGL2RenderingContext.prototype.getExtension",
+    "type": "resource",
+    "resource": "call",
+    "group": "CrawlFpInspector",
+    "weight": 8,
+    "accesses": 6
+  },
+  {
+    "title": "CanvasRenderingContext2D.prototype.closePath",
+    "type": "resource",
+    "resource": "call",
+    "group": "CrawlFpInspector",
+    "weight": 8,
+    "accesses": 2
+  },
+  {
+    "title": "CanvasRenderingContext2D.prototype.beginPath",
+    "type": "resource",
+    "resource": "call",
+    "group": "CrawlFpInspector",
+    "weight": 8,
+    "accesses": 4
+  },
+  {
+    "title": "CrawlFpInspector",
+    "type": "group",
+    "weight": 3,
+    "sum": 223
+  },
+  {
+    "title": "FingerprintingActivity",
+    "type": "group",
+    "weight": 1,
+    "sum": 7
+  }
+]

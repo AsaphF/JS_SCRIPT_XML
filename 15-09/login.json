@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Navigator.prototype.userAgent", // feito
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 2,
+    "accesses": 3
+  },
+  {
+    "title": "Date.now",
+    "type": "resource",
+    "resource": "call",
+    "group": "TimeInfo",
+    "weight": 1,
+    "accesses": 3
+  }
+]

@@ -1,0 +1,376 @@
+[
+  {
+    "title": "Navigator.prototype.plugins",
+    "type": "resource",
+    "resource": "get",
+    "group": "BrowserProperties",
+    "weight": 1,
+    "accesses": 8
+  },
+  {
+    "title": "HTMLMediaElement.prototype.canPlayType",
+    "type": "resource",
+    "resource": "call",
+    "group": "BrowserProperties",
+    "weight": 1,
+    "accesses": 7
+  },
+  {
+    "title": "Navigator.prototype.userAgent",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 2,
+    "accesses": 107
+  },
+  {
+    "title": "Navigator.prototype.language",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 1,
+    "accesses": 8
+  },
+  {
+    "title": "Navigator.prototype.languages",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 2,
+    "accesses": 8
+  },
+  {
+    "title": "Navigator.prototype.platform",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 1,
+    "accesses": 8
+  },
+  {
+    "title": "Navigator.prototype.product",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 1,
+    "accesses": 9
+  },
+  {
+    "title": "Navigator.prototype.appVersion",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 2,
+    "accesses": 2
+  },
+  {
+    "title": "NavigatorBasic",
+    "type": "group",
+    "weight": 1,
+    "sum": 9
+  },
+  {
+    "title": "NavigatorHardware",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "Navigator.prototype.maxTouchPoints",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorMobile",
+    "weight": 1,
+    "accesses": 4
+  },
+  {
+    "title": "NavigatorMobile",
+    "type": "group",
+    "weight": 1,
+    "sum": 1
+  },
+  {
+    "title": "NavigatorNetwork",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "LocalizationInfo",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "PermissionsInfo",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "AudioInfo",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "ScreenInfo",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "window.devicePixelRatio",
+    "type": "resource",
+    "resource": "get",
+    "group": "WindowInfo",
+    "weight": 1,
+    "accesses": 2
+  },
+  {
+    "title": "WindowInfo",
+    "type": "group",
+    "weight": 0,
+    "sum": 1
+  },
+  {
+    "title": "window.localStorage",
+    "type": "resource",
+    "resource": "get",
+    "group": "StorageInfo",
+    "weight": 1,
+    "accesses": 22
+  },
+  {
+    "title": "window.sessionStorage",
+    "type": "resource",
+    "resource": "get",
+    "group": "StorageInfo",
+    "weight": 1,
+    "accesses": 1
+  },
+  {
+    "title": "window.indexedDB",
+    "type": "resource",
+    "resource": "get",
+    "group": "StorageInfo",
+    "weight": 2,
+    "accesses": 1
+  },
+  {
+    "title": "StorageInfo",
+    "type": "group",
+    "weight": 1,
+    "sum": 4
+  },
+  {
+    "title": "NavigatorFlags",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "Date.now",
+    "type": "resource",
+    "resource": "call",
+    "group": "TimeInfo",
+    "weight": 1,
+    "accesses": 101
+  },
+  {
+    "title": "TimeInfo",
+    "type": "group",
+    "weight": 1,
+    "sum": 101
+  },
+  {
+    "title": "WebGLInfo",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "BrowserProperties",
+    "type": "group",
+    "weight": 0,
+    "sum": 6
+  },
+  {
+    "title": "JSFontEnumStepOne",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "JSFontEnumStepTwo",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "JSFontEnum",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "CanvasFontEnumStepOne",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "CanvasFontEnumStepTwo",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "CanvasFontEnum",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "FontsEnumFingerprint",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "CanvasFingerprintStepOne",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "CanvasFingerprintStepTwo",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "CanvasFingerprintStepThree",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "CanvasFingerprint",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "WebGL1FingerprintStepOne",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "WebGL1FingerprintStepTwo",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "WebGL1FingerprintStepThree",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "WebGL1Fingerprint",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "WebGL2FingerprintStepOne",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "WebGL2FingerprintStepTwo",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "WebGL2FingerprintStepThree",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "WebGL2Fingerprint",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "WebGLFingerprint",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "WebRTCFingerprintStepOne",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "WebRTCFingerprintStepTwo",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "WebRTCFingerprint",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "AudioContextFingerprint",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "AlgorithmicMethods",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  },
+  {
+    "title": "Navigator.prototype.languages",
+    "type": "resource",
+    "resource": "get",
+    "group": "CrawlFpInspector",
+    "weight": 8,
+    "accesses": 8
+  },
+  {
+    "title": "Navigator.prototype.maxTouchPoints",
+    "type": "resource",
+    "resource": "get",
+    "group": "CrawlFpInspector",
+    "weight": 8,
+    "accesses": 4
+  },
+  {
+    "title": "CrawlFpInspector",
+    "type": "group",
+    "weight": 0,
+    "sum": 16
+  },
+  {
+    "title": "FingerprintingActivity",
+    "type": "group",
+    "weight": 0,
+    "sum": 0
+  }
+]

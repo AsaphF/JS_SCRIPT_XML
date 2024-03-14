@@ -1,0 +1,162 @@
+[
+  {
+    "title": "HTMLMediaElement.prototype.canPlayType", // verificando
+    "type": "resource",
+    "resource": "call",
+    "group": "BrowserProperties",
+    "weight": 1,
+    "accesses": 7
+  },
+  {
+    "title": "Navigator.prototype.userAgent",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 2,
+    "accesses": 107
+  },
+  {
+    "title": "Navigator.prototype.language",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 1,
+    "accesses": 4
+  },
+  {
+    "title": "Navigator.prototype.languages",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 2,
+    "accesses": 2
+  },
+  {
+    "title": "Navigator.prototype.platform",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 1,
+    "accesses": 4
+  },
+  {
+    "title": "Navigator.prototype.product",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 1,
+    "accesses": 9
+  },
+  {
+    "title": "Navigator.prototype.appVersion",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 2,
+    "accesses": 2
+  },
+  {
+    "title": "Navigator.prototype.maxTouchPoints",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorMobile",
+    "weight": 1,
+    "accesses": 4
+  },
+  {
+    "title": "Screen.prototype.height",
+    "type": "resource",
+    "resource": "get",
+    "group": "ScreenInfo",
+    "weight": 1,
+    "accesses": 5
+  },
+  {
+    "title": "Screen.prototype.width",
+    "type": "resource",
+    "resource": "get",
+    "group": "ScreenInfo",
+    "weight": 1,
+    "accesses": 5
+  },
+  {
+    "title": "window.devicePixelRatio",
+    "type": "resource",
+    "resource": "get",
+    "group": "WindowInfo",
+    "weight": 1,
+    "accesses": 2
+  },
+  {
+    "title": "window.localStorage",
+    "type": "resource",
+    "resource": "get",
+    "group": "StorageInfo",
+    "weight": 1,
+    "accesses": 22
+  },
+  {
+    "title": "window.sessionStorage",
+    "type": "resource",
+    "resource": "get",
+    "group": "StorageInfo",
+    "weight": 1,
+    "accesses": 1
+  },
+  {
+    "title": "window.indexedDB",
+    "type": "resource",
+    "resource": "get",
+    "group": "StorageInfo",
+    "weight": 2,
+    "accesses": 1
+  },
+  {
+    "title": "Date.now",
+    "type": "resource",
+    "resource": "call",
+    "group": "TimeInfo",
+    "weight": 1,
+    "accesses": 95
+  },
+  {
+    "title": "CSSStyleDeclaration.prototype.fontFamily", // verificando
+    "type": "resource",
+    "resource": "set",
+    "group": "JSFontEnumStepOne",
+    "weight": 0,
+    "accesses": 1
+  },
+  {
+    "title": "HTMLElement.prototype.offsetWidth", // verificando
+    "type": "resource",
+    "resource": "get",
+    "group": "JSFontEnumStepTwo",
+    "weight": 1,
+    "accesses": 987
+  },
+  {
+    "title": "HTMLElement.prototype.offsetHeight", // verificando
+    "type": "resource",
+    "resource": "get",
+    "group": "JSFontEnumStepTwo",
+    "weight": 1,
+    "accesses": 455
+  },
+  {
+    "title": "Navigator.prototype.languages",
+    "type": "resource",
+    "resource": "get",
+    "group": "CrawlFpInspector",
+    "weight": 8,
+    "accesses": 2
+  },
+  {
+    "title": "Navigator.prototype.maxTouchPoints",
+    "type": "resource",
+    "resource": "get",
+    "group": "CrawlFpInspector",
+    "weight": 8,
+    "accesses": 4
+  }
+]

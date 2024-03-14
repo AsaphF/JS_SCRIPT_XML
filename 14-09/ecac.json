@@ -1,0 +1,298 @@
+[
+  { // Feito
+    "title": "Navigator.prototype.plugins",
+    "type": "resource",
+    "resource": "get",
+    "group": "BrowserProperties",
+    "weight": 1,
+    "accesses": 17
+  },
+  { // Feito
+    "title": "Navigator.prototype.userAgent",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 2,
+    "accesses": 22
+  },
+  { // Feito
+    "title": "Navigator.prototype.language",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 1,
+    "accesses": 4
+  },
+  { // Feito
+    "title": "Navigator.prototype.languages",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 2,
+    "accesses": 1
+  },
+  { // Feito
+    "title": "Navigator.prototype.platform",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 1,
+    "accesses": 4
+  },
+  { // Feito
+    "title": "Navigator.prototype.productSub",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 1,
+    "accesses": 1
+  },
+  { // Feito
+    "title": "Navigator.prototype.product",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 1,
+    "accesses": 1
+  },
+  { // Feito
+    "title": "Navigator.prototype.vendorSub",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 2,
+    "accesses": 1
+  },
+  { // Feito
+    "title": "Navigator.prototype.vendor",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 1,
+    "accesses": 5
+  },
+  { // Feito
+    "title": "Navigator.prototype.appVersion",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 2,
+    "accesses": 3
+  },
+  {  // Feito
+    "title": "Navigator.prototype.appCodeName",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorBasic",
+    "weight": 2,
+    "accesses": 1
+  },
+  { // Feito
+    "title": "Navigator.prototype.hardwareConcurrency",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorHardware",
+    "weight": 1,
+    "accesses": 1
+  },
+  { // Feito
+    "title": "Navigator.prototype.deviceMemory",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorHardware",
+    "weight": 1,
+    "accesses": 1
+  },
+  { // not
+    "title": "Navigator.prototype.maxTouchPoints",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorMobile",
+    "weight": 1,
+    "accesses": 7
+  },
+  { // Verificando
+    "title": "Date.prototype.getTimezoneOffset",
+    "type": "resource",
+    "resource": "call",
+    "group": "LocalizationInfo",
+    "weight": 1,
+    "accesses": 2
+  },
+  { // Verificando
+    "title": "Intl.DateTimeFormat.prototype.resolvedOptions",
+    "type": "resource",
+    "resource": "call",
+    "group": "LocalizationInfo",
+    "weight": 1,
+    "accesses": 1
+  },
+  { // Feito
+    "title": "Screen.prototype.height",
+    "type": "resource",
+    "resource": "get",
+    "group": "ScreenInfo",
+    "weight": 1,
+    "accesses": 3
+  },
+  { // Feito
+    "title": "Screen.prototype.width",
+    "type": "resource",
+    "resource": "get",
+    "group": "ScreenInfo",
+    "weight": 1,
+    "accesses": 3
+  },
+  { // Feito
+    "title": "Screen.prototype.colorDepth",
+    "type": "resource",
+    "resource": "get",
+    "group": "ScreenInfo",
+    "weight": 1,
+    "accesses": 3
+  },
+  { // Feito
+    "title": "Screen.prototype.pixelDepth",
+    "type": "resource",
+    "resource": "get",
+    "group": "ScreenInfo",
+    "weight": 1,
+    "accesses": 1
+  },
+  { // Feito
+    "title": "Screen.prototype.availHeight",
+    "type": "resource",
+    "resource": "get",
+    "group": "ScreenInfo",
+    "weight": 1,
+    "accesses": 2
+  },
+  { // Feito
+    "title": "Screen.prototype.availWidth",
+    "type": "resource",
+    "resource": "get",
+    "group": "ScreenInfo",
+    "weight": 1,
+    "accesses": 3
+  },
+  { // Feito
+    "title": "Screen.prototype.availTop",
+    "type": "resource",
+    "resource": "get",
+    "group": "ScreenInfo",
+    "weight": 1,
+    "accesses": 2
+  },
+  { // Feito
+    "title": "Screen.prototype.availLeft",
+    "type": "resource",
+    "resource": "get",
+    "group": "ScreenInfo",
+    "weight": 1,
+    "accesses": 1
+  },
+  { // Feito
+    "title": "window.devicePixelRatio",
+    "type": "resource",
+    "resource": "get",
+    "group": "WindowInfo",
+    "weight": 1,
+    "accesses": 2
+  },
+  { // Feito
+    "title": "window.innerWidth",
+    "type": "resource",
+    "resource": "get",
+    "group": "WindowInfo",
+    "weight": 1,
+    "accesses": 8
+  },
+  { // Feito
+    "title": "window.innerHeight",
+    "type": "resource",
+    "resource": "get",
+    "group": "WindowInfo",
+    "weight": 1,
+    "accesses": 4
+  },
+  { // Feito
+    "title": "window.outerWidth",
+    "type": "resource",
+    "resource": "get",
+    "group": "WindowInfo",
+    "weight": 1,
+    "accesses": 1
+  },
+  { // Feito
+    "title": "window.outerHeight",
+    "type": "resource",
+    "resource": "get",
+    "group": "WindowInfo",
+    "weight": 1,
+    "accesses": 1
+  },
+  { // Não fazer
+    "title": "window.localStorage",
+    "type": "resource",
+    "resource": "get",
+    "group": "StorageInfo",
+    "weight": 1,
+    "accesses": 6
+  },
+  { // Não fazer
+    "title": "Navigator.prototype.cookieEnabled",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorFlags",
+    "weight": 1,
+    "accesses": 1
+  },
+  { // Não fazer (Não é afetivo)
+    "title": "Navigator.prototype.doNotTrack",
+    "type": "resource",
+    "resource": "get",
+    "group": "NavigatorFlags",
+    "weight": 1,
+    "accesses": 1
+  },
+  { // Verificando (Não é afetivo)
+    "title": "Performance.prototype.now",
+    "type": "resource",
+    "resource": "call",
+    "group": "TimeInfo",
+    "weight": 1,
+    "accesses": 10
+  },
+  { // Não alterar
+    "title": "Date.now",
+    "type": "resource",
+    "resource": "call",
+    "group": "TimeInfo",
+    "weight": 1,
+    "accesses": 155
+  },
+  { // Verificar
+    "title": "CSSStyleDeclaration.prototype.fontFamily",
+    "type": "resource",
+    "resource": "set",
+    "group": "JSFontEnumStepOne",
+    "weight": 0,
+    "accesses": 1
+  },
+  { // Verificar
+    "title": "HTMLElement.prototype.offsetWidth",
+    "type": "resource",
+    "resource": "get",
+    "group": "JSFontEnumStepTwo",
+    "weight": 1,
+    "accesses": 3
+  },
+  { // Verificar
+    "title": "HTMLElement.prototype.offsetHeight",
+    "type": "resource",
+    "resource": "get",
+    "group": "JSFontEnumStepTwo",
+    "weight": 1,
+    "accesses": 3
+  }
+]
